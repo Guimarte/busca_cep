@@ -79,7 +79,7 @@ class Home extends StatelessWidget {
                                         MediaQuery.of(context).size.width * 0.4,
                                     height: MediaQuery.of(context).size.height *
                                         0.20,
-                                    child: ListView('g'
+                                    child: ListView(
                                       children: [
                                         Text("Cep: ${cidade.cep}"),
                                         Text(
